@@ -1,0 +1,12 @@
+.place__website_link {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+    margin: 0;
+    padding-top: 12px;
+}
+
+.place__website_link:hover {
+    opacity: .8;
+}

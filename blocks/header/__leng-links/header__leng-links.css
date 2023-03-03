@@ -1,0 +1,6 @@
+.header__leng-links {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    column-gap: 18px;
+}
