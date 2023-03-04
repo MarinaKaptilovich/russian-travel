@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: column;
     max-width: 1184px;
-    max-height: 740px;
+    min-height: 740px;
     background-image: url(../../../images/cover-trains.jpg);
     background-size: cover;
     overflow: hidden;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 .cover__background::before {
@@ -18,37 +19,33 @@
     left: 0;
     right: 0;
     bottom: 0;
-    width: 100%;
+    transition: 1s linear;
 }
 
 .cover__background:hover::before{
     content: '';
     background-color: #2A2C2F;
     opacity: .8;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+
 }
 
 @media screen and (max-width: 1279px) {
     .cover__background {
         max-width: 1024px;
-        max-height: 640px;
+        min-height: 640px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .cover__background {
         max-width: 768px;
-        max-height: 480px;
+        min-height: 480px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .cover__background {
         max-width: 320px;
-        max-height: 200px;
+        min-height: 200px;
     }
 }

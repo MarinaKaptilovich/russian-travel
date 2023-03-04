@@ -5,6 +5,7 @@
     "title website"
     "image paragraph";
     padding: 0 148px;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1279px) {
