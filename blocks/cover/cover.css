@@ -1,6 +1,7 @@
 .cover {
     position: relative;
     padding: 92px 48px;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1279px) {

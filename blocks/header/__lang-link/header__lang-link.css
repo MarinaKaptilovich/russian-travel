@@ -1,5 +1,5 @@
-.header__leng-link {
-    color: #FFFFFF;
+.header__lang-link {
+    color: #FFF;
     font-size: 24px;
     line-height: 28px;
     font-weight: 400;
@@ -8,12 +8,13 @@
     margin: 0;
 }
 
-.header__leng-link:hover {
+.header__lang-link:hover {
     opacity: .8;
+    transition: 1s;
 }
 
 @media screen and (max-width: 767px) {
-    .header__leng-link {
+    .header__lang-link {
         font-size: 18px;
         line-height: 20px;
         padding-top: 14px;

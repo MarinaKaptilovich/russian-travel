@@ -1,5 +1,5 @@
 .intro__text {
-    color: #FFFFFF;
+    color: #FFF;
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
@@ -18,7 +18,6 @@
 @media screen and (max-width: 1023px) {
     .intro__text {
         padding-left: 24px;
-        padding-top: 40px;
         max-width: 720px;
     }
 }

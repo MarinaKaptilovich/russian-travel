@@ -2,6 +2,7 @@
     grid-area: image;
     max-width: 460px;
     max-height: 460px;
+    margin: 0;
 }
 
 @media screen and (max-width: 1279px) {
